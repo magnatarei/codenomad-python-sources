@@ -1,0 +1,30 @@
+# Bytecode e caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Ambientes virtuais e dependências
+.venv/
+venv/
+env/
+.Python
+
+# Empacotamento e distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Relatório do verificador
+.verificacao.json
+
+# Arquivos de sistema e de editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
